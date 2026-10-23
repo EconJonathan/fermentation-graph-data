@@ -1,0 +1,30 @@
+{
+  "cfmdVersion": "v1.3.2",
+  "rows_per_file": {
+    "datasets.csv": 87,
+    "food_types.csv": 99,
+    "samples.csv": 3248,
+    "sgbs.csv": 5365,
+    "taxa.csv": 3204,
+    "mags.csv": 15707,
+    "rel_sample_from_dataset.csv": 3248,
+    "rel_sample_of_food_type.csv": 3248,
+    "rel_sample_contains_sgb.csv": 86714,
+    "rel_mag_assembled_from_sample.csv": 15707,
+    "rel_mag_assigned_to_sgb.csv": 15531,
+    "rel_sgb_in_taxon.csv": 5365,
+    "rel_taxon_part_of.csv": 3221
+  },
+  "nodes_total": 27710,
+  "rels_total": 133034,
+  "missing_profiles": [
+    "RippF_2014"
+  ],
+  "renamed_from_profiles": {
+    "phylum:Firmicutes": "Bacillota",
+    "phylum:Pseudomonadota": "Proteobacteria",
+    "order:Acetobacterales": "Rhodospirillales",
+    "phylum:Proteobacteria": "Pseudomonadota",
+    "order:Rhodospirillales": "Acetobacterales"
+  }
+}
