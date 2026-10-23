@@ -478,10 +478,10 @@ SGB107694,Nocardioides SGB107694,,,false,https://raw.githubusercontent.com/Segat
 SGB107701,Aeromicrobium SGB107701,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LiZ_2018/LiZ_2018_taxonomic_profiles.tsv
 SGB107819,bacterium,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB107822,Sphingomonas faeni,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
-SGB107829,Bacteria unclassified SGB107829,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_1/MASTER_WP4_UNINA_1_taxonomic_profiles.tsv
+SGB107829,Bacteria unclassified SGB107829,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_1/MASTER_WP4_UNINA_1_taxonomic_profiles.tsv
 SGB107859,Brevundimonas SGB107859,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB107920,Methylobacterium goesingense,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
-SGB107964,Acetobacteraceae unclassified SGB107964,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/YasirM_2022/YasirM_2022_taxonomic_profiles.tsv
+SGB107964,Acetobacteraceae unclassified SGB107964,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/YasirM_2022/YasirM_2022_taxonomic_profiles.tsv
 SGB107992,GGB42918 SGB107992,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB10815,Tranquillimonas rosea,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_CSIC_1/MASTER_WP4_CSIC_1_taxonomic_profiles.tsv
 SGB108207,GGB77983 SGB108207,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
@@ -679,7 +679,7 @@ SGB111723,Sphingomonas lacusdianchii,,,false,https://raw.githubusercontent.com/S
 SGB111724,Sphingomonas panni,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB111731,Sphingomonas citricola,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/ZhangZ_2021/ZhangZ_2021_taxonomic_profiles.tsv
 SGB111733,bacterium,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
-SGB111735,Bacteria unclassified SGB111735,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
+SGB111735,Bacteria unclassified SGB111735,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
 SGB111737,bacterium,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB111738,bacterium,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
 SGB111742,bacterium,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
@@ -1030,8 +1030,8 @@ SGB12248,Pseudomonas mandelii,,,false,https://raw.githubusercontent.com/SegataLa
 SGB122490,GGB53661 SGB122490,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB12251,Pseudomonas gregormendelii,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB122544,GGB53670 SGB122544,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
-SGB122549,Nitrososphaerales unclassified SGB122549,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/UNINA_SM_2025/UNINA_SM_2025_taxonomic_profiles.tsv
-SGB122562,Nitrososphaerales unclassified SGB122562,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
+SGB122549,Nitrososphaerales unclassified SGB122549,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/UNINA_SM_2025/UNINA_SM_2025_taxonomic_profiles.tsv
+SGB122562,Nitrososphaerales unclassified SGB122562,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB12257,Pseudomonas sp 21LCFQ010,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB122575_group,GGB87586 SGB122575,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/UNINA_SM_2025/UNINA_SM_2025_taxonomic_profiles.tsv
 SGB12258,Pseudomonas ovata,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
@@ -1243,7 +1243,7 @@ SGB133340,GGB44766 SGB133340,,,true,https://raw.githubusercontent.com/SegataLab/
 SGB13354,Nitrosospira sp Nsp14,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
 SGB13386,Geitlerinema sp PCC 7407,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB133870,Castellaniella SGB133870,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LimaC_2020/LimaC_2020_taxonomic_profiles.tsv
-SGB1343,Bacteroidota unclassified SGB1343,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
+SGB1343,Bacteroidota unclassified SGB1343,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
 SGB134640,Hydrogenophaga SGB134640,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_1/MASTER_WP4_UNINA_1_taxonomic_profiles.tsv
 SGB134644,Paracidovorax SGB134644,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/ZhangZ_2021/ZhangZ_2021_taxonomic_profiles.tsv
 SGB134831,GGB91399 SGB134831,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/UNINA_SM_2025/UNINA_SM_2025_taxonomic_profiles.tsv
@@ -1387,9 +1387,9 @@ SGB15238,GGB13493 SGB15238,,,true,https://raw.githubusercontent.com/SegataLab/cF
 SGB152382,Rothia sp SD9660Na,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB15242,GGB9712 SGB15242,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB15249,Oscillibacter sp MSJ 31,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LimaC_2020/LimaC_2020_taxonomic_profiles.tsv
-SGB15251,Oscillospiraceae unclassified SGB15251,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
+SGB15251,Oscillospiraceae unclassified SGB15251,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB15254,Oscillibacter sp ER4,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/DeFilippisF_xxxx/DeFilippisF_xxxx_taxonomic_profiles.tsv
-SGB15256,Oscillospiraceae unclassified SGB15256,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LimaC_2020/LimaC_2020_taxonomic_profiles.tsv
+SGB15256,Oscillospiraceae unclassified SGB15256,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LimaC_2020/LimaC_2020_taxonomic_profiles.tsv
 SGB15265,GGB9715 SGB15265,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LimaC_2020/LimaC_2020_taxonomic_profiles.tsv
 SGB15266,GGB9715 SGB15266,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB15267,GGB9715 SGB15267,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/DeFilippisF_xxxx/DeFilippisF_xxxx_taxonomic_profiles.tsv
@@ -1970,7 +1970,7 @@ SGB181680,Paracoccus stylophorae,,,false,https://raw.githubusercontent.com/Segat
 SGB181681,Paracoccus fistulariae,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB181685,Paracoccus sp SMMA 5,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_1/MASTER_WP4_UNINA_1_taxonomic_profiles.tsv
 SGB1822,Bacteroides togonis,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
-SGB182531,Alphaproteobacteria unclassified SGB182531,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/ArikanM_2020/ArikanM_2020_taxonomic_profiles.tsv
+SGB182531,Alphaproteobacteria unclassified SGB182531,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/ArikanM_2020/ArikanM_2020_taxonomic_profiles.tsv
 SGB182571,Sphingobium sp WCS2017Hpa 17,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/YuY_2022/YuY_2022_taxonomic_profiles.tsv
 SGB182658,Sphingomonas sp AR OL41,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
 SGB182661,Sphingomonas echinoides,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
@@ -1996,7 +1996,7 @@ SGB183411,Paeniroseomonas aquatica,,,false,https://raw.githubusercontent.com/Seg
 SGB1836,Bacteroides uniformis,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/DeFilippisF_xxxx/DeFilippisF_xxxx_taxonomic_profiles.tsv
 SGB183856,GGB40753 SGB183856,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/UNINA_SM_2025/UNINA_SM_2025_taxonomic_profiles.tsv
 SGB184127,Devosia sp YIM 151766,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/DuR_2020/DuR_2020_taxonomic_profiles.tsv
-SGB184309,Hyphomicrobiales unclassified SGB184309,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/ZhangZ_2021/ZhangZ_2021_taxonomic_profiles.tsv
+SGB184309,Hyphomicrobiales unclassified SGB184309,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/ZhangZ_2021/ZhangZ_2021_taxonomic_profiles.tsv
 SGB184365,Shinella zoogloeoides,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/CM_UNINA_FFOOD/CM_UNINA_FFOOD_taxonomic_profiles.tsv
 SGB184418,Afipia SGB184418,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/ArikanM_2020/ArikanM_2020_taxonomic_profiles.tsv
 SGB184494,Bradyrhizobium SGB184494,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/UNINA_SM_2025/UNINA_SM_2025_taxonomic_profiles.tsv
@@ -2065,9 +2065,9 @@ SGB197734,Bacteroidales bacterium F22,,,false,https://raw.githubusercontent.com/
 SGB19792,Candidatus Nanosyncoccus SGB19792,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
 SGB19827_group,GGB12785 SGB19827,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_2020/LeechJ_2020_taxonomic_profiles.tsv
 SGB19843,GGB12789 SGB19843,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_2020/LeechJ_2020_taxonomic_profiles.tsv
-SGB19846_group,Candidatus Saccharibacteria unclassified SGB19846,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
+SGB19846_group,Candidatus Saccharibacteria unclassified SGB19846,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
 SGB19887,Candidatus Nanosynbacter SGB19887,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
-SGB19905,Candidatus Saccharibacteria unclassified SGB19905,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
+SGB19905,Candidatus Saccharibacteria unclassified SGB19905,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
 SGB201203,GGB78880 SGB201203,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MotaGutierrezJ_2021/MotaGutierrezJ_2021_taxonomic_profiles.tsv
 SGB20148,GGB12982 SGB20148,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB201665,Acidobacteriota bacterium T6 8 59,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
@@ -2174,7 +2174,7 @@ SGB208090,Komagataeibacter xylinus,,,false,https://raw.githubusercontent.com/Seg
 SGB208091,Novacetimonas cocois,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlmeidaO_2020/AlmeidaO_2020_taxonomic_profiles.tsv
 SGB208550,Fructobacillus tropaeoli,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlmeidaO_2020/AlmeidaO_2020_taxonomic_profiles.tsv
 SGB208566,Saccharibacillus qingshengii,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
-SGB208642,Alcaligenaceae unclassified SGB208642,uSGB,Genus,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+SGB208642,Alcaligenaceae unclassified SGB208642,uSGB,Genus,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB208659_group,Bacillus paralicheniformis,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB208662,Metabacillus SGB208662,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MotaGutierrezJ_2021/MotaGutierrezJ_2021_taxonomic_profiles.tsv
 SGB208668,Bacillus mojavensis,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/YuY_2022/YuY_2022_taxonomic_profiles.tsv
@@ -3183,7 +3183,7 @@ SGB37257,GGB9502 SGB37257,,,true,https://raw.githubusercontent.com/SegataLab/cFM
 SGB37288,GGB25349 SGB37288,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB37325,GGB25377 SGB37325,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB37326,GGB25377 SGB37326,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
-SGB37356,Eubacteriales unclassified SGB37356,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
+SGB37356,Eubacteriales unclassified SGB37356,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB37358,GGB25406 SGB37358,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB37363,GGB25411 SGB37363,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB37381,GGB25427 SGB37381,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
@@ -3201,7 +3201,7 @@ SGB38085,Aeromicrobium phoceense,,,false,https://raw.githubusercontent.com/Segat
 SGB38100,GGB26089 SGB38100,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/CM_UNINA_FFOOD/CM_UNINA_FFOOD_taxonomic_profiles.tsv
 SGB38105,Corynebacterium glyciniphilum,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/DeFilippisF_xxxx/DeFilippisF_xxxx_taxonomic_profiles.tsv
 SGB38209,Pelagibacterium SGB38209,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_CSIC_1/MASTER_WP4_CSIC_1_taxonomic_profiles.tsv
-SGB38263,Bacteria unclassified SGB38263,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
+SGB38263,Bacteria unclassified SGB38263,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB38288,Brevundimonas SGB38288,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/YulandiA_2020/YulandiA_2020_taxonomic_profiles.tsv
 SGB38289,Brevundimonas SGB38289,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LopezSanchezR_2023/LopezSanchezR_2023_taxonomic_profiles.tsv
 SGB38297,Brevundimonas SGB38297,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/DuR_2020/DuR_2020_taxonomic_profiles.tsv
@@ -3248,7 +3248,7 @@ SGB3958,Eubacteriaceae bacterium,,,false,https://raw.githubusercontent.com/Segat
 SGB3965,GGB2983 SGB3965,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB3966,Eubacterium pyruvativorans,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB39824,GGB27521 SGB39824,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
-SGB3983,Bacillota unclassified SGB3983,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
+SGB3983,Bacillota unclassified SGB3983,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB3994,GGB3003 SGB3994,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB4003,Amygdalobacter indicium,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/SirenK_2019/SirenK_2019_taxonomic_profiles.tsv
 SGB40236,GGB13009 SGB40236,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
@@ -3268,7 +3268,7 @@ SGB41973,GGB25206 SGB41973,,,true,https://raw.githubusercontent.com/SegataLab/cF
 SGB4198,Eubacterium siraeum,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/CM_UNINA_FFOOD/CM_UNINA_FFOOD_taxonomic_profiles.tsv
 SGB41980,GGB25207 SGB41980,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB41986,GGB25214 SGB41986,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
-SGB4199,Oscillospiraceae unclassified SGB4199,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
+SGB4199,Oscillospiraceae unclassified SGB4199,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB41990,GGB29239 SGB41990,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB4208,GGB3185 SGB4208,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB42252,Allobaculum fili,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/YasirM_2022/YasirM_2022_taxonomic_profiles.tsv
@@ -3416,11 +3416,11 @@ SGB49092,Enterococcus nangangensis,,,false,https://raw.githubusercontent.com/Seg
 SGB49093,Companilactobacillus huachuanensis,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB4910,Simiaoa sunii,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB49108,Lentibacillus cibarius,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
-SGB4920,Lachnospiraceae unclassified SGB4920,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_2020/LeechJ_2020_taxonomic_profiles.tsv
+SGB4920,Lachnospiraceae unclassified SGB4920,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_2020/LeechJ_2020_taxonomic_profiles.tsv
 SGB4921,Lachnospiraceae bacterium AF75 07pH9A,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB49217,GGB74835 SGB49217,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LimaC_2020/LimaC_2020_taxonomic_profiles.tsv
 SGB4922,Lachnospiraceae bacterium,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
-SGB4923,Lachnospiraceae unclassified SGB4923,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
+SGB4923,Lachnospiraceae unclassified SGB4923,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB4925,Roseburia faecis,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/CM_UNINA_FFOOD/CM_UNINA_FFOOD_taxonomic_profiles.tsv
 SGB4929,GGB3636 SGB4929,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB49298,Corynebacterium endometrii,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
@@ -3543,7 +3543,7 @@ SGB5741,Acidaminococcus timonensis,,,false,https://raw.githubusercontent.com/Seg
 SGB5743,Acidaminococcus fermentans,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB5744,Acidaminococcus fermentans,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB57468,Lampropedia aestuarii,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
-SGB57624,Alcaligenaceae unclassified SGB57624,uSGB,Genus,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+SGB57624,Alcaligenaceae unclassified SGB57624,uSGB,Genus,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB5763,Phascolarctobacterium succinatutens,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB5782,GGB4254 SGB5782,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
 SGB57871,Thiopseudomonas acetoxidans,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
@@ -3773,7 +3773,7 @@ SGB69410,Lactobacillus sp UCMA15818,kSGB,Species,false,https://raw.githubusercon
 SGB69411,GGB49486 SGB69411,uSGB,Family,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB69432,GGB49493 SGB69432,uSGB,Family,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB69433,GGB71372 SGB69433,uSGB,Family,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-SGB69554,Nitrososphaerales unclassified SGB69554,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/UNINA_SM_2025/UNINA_SM_2025_taxonomic_profiles.tsv
+SGB69554,Nitrososphaerales unclassified SGB69554,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/UNINA_SM_2025/UNINA_SM_2025_taxonomic_profiles.tsv
 SGB6959,Veillonella sp YH vei2232,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/CM_UNINA_FFOOD/CM_UNINA_FFOOD_taxonomic_profiles.tsv
 SGB6961,Selenobaculum gibii,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/LeechJ_xxxx/LeechJ_xxxx_taxonomic_profiles.tsv
 SGB697,Candidatus Methanosphaera massiliense,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
@@ -4776,7 +4776,7 @@ SGB92519,Tatumella sp JGM118,kSGB,Species,false,https://raw.githubusercontent.co
 SGB92523,Serratia grimesii,kSGB,Species,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB92524,Rahnella SGB92524,ufSGB,Genus,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB9253,GGB142751 SGB9253,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/WalshL_xxxx/WalshL_xxxx_taxonomic_profiles.tsv
-SGB92532,Enterobacteriaceae unclassified SGB92532,ufSGB,Genus,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+SGB92532,Enterobacteriaceae unclassified SGB92532,ufSGB,Genus,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB92533,Citrobacter sp JGM124,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/PothakosV_2020/PothakosV_2020_taxonomic_profiles.tsv
 SGB92538,Providencia rettgeri,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv
 SGB92541,GGB68561 SGB92541,uSGB,Family,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -5311,7 +5311,7 @@ SGB99393,Acetobacter SGB99393,ufSGB,Genus,false,https://raw.githubusercontent.co
 SGB99394,Acetobacter SGB99394,uSGB,Genus,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99395,GGB72252 SGB99395,ufSGB,Family,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99417,Sphingomonas SGB99417,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_FFoQSI_3/MASTER_WP4_FFoQSI_3_taxonomic_profiles.tsv
-SGB99436,Bacteria unclassified SGB99436,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
+SGB99436,Bacteria unclassified SGB99436,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_UNINA_2/MASTER_WP4_UNINA_2_taxonomic_profiles.tsv
 SGB99452,Amaricoccus sp HAR UPW R2A 40,,,false,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_TEAGASC_1/MASTER_WP4_TEAGASC_1_taxonomic_profiles.tsv
 SGB99462,GGB72302 SGB99462,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/MASTER_WP4_CSIC_1/MASTER_WP4_CSIC_1_taxonomic_profiles.tsv
 SGB99463,GGB72303 SGB99463,,,true,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_data/AlvarezOrdonezA_xxxx/AlvarezOrdonezA_xxxx_taxonomic_profiles.tsv

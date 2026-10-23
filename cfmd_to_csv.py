@@ -89,8 +89,14 @@ def pretty(name):
 
 
 def is_placeholder(name):
-    # cFMD names unknown groups GGB..., FGB..., SGB... instead of a Latin name
-    return name.split("_")[0][:3] in ("GGB", "FGB", "SGB", "EUK")
+    # MetaPhlAn/cFMD codes for unnamed groups: GGB123 (genus), FGB, OFGB, CFGB,
+    # SGB123, EUK..., and "<group>_unclassified"
+    return bool(re.match(r"(SGB|EUK|[A-Z]{0,3}GB)\d", name)) or "unclassified" in name
+
+
+def known(name):
+    # cFMD writes 'unknown' or leaves a rank empty when it can't assign it
+    return bool(name) and name.strip().lower() not in ("unknown", "na", "none")
 
 
 def taxon_id(rank, name):
@@ -133,7 +139,7 @@ def main():
     mags = [g for g in mags_all if f'{g["dataset_id"]}__{g["sample_id"]}' in samples]
     print(f"MAGs kept: {len(mags)}")
 
-    # SGB info and lineage from the MAG list (preferred: current names)
+    # SGB info and lineage from the MAG list
     sgb = {}            # sgbId -> dict
     lineage = {}        # sgbId -> {rank: name}
     for g in mags:
@@ -142,7 +148,7 @@ def main():
             continue
         sgb.setdefault(s, {"name": g["species"], "status": g["unknown"],
                            "assignedRank": g["assigned_taxonomy_level"], "source": URL_MAGS})
-        lineage.setdefault(s, {r: g[r] for r in RANKS if g[r]})
+        lineage.setdefault(s, {r: g[r] for r in RANKS if known(g[r])})
 
     # 4. Taxonomic profiles, one file per dataset
     contains = []       # (sampleUid, sgbId, relAbundance, source)
@@ -154,6 +160,7 @@ def main():
         time.sleep(args.sleep)
         if rows is None:
             missing_profiles.append(ds)
+            print(f"  [{i}/{len(datasets_used)}] {ds}: no profile file")
             continue
         header = rows[0]
         cols = []
@@ -171,44 +178,90 @@ def main():
                     contains.append((uid, s, float(val), url))
         print(f"  [{i}/{len(datasets_used)}] {ds}: profile ok")
 
-    # 5. Reconcile names: where an SGB is in both sources and a rank name differs
-    #    (e.g. Firmicutes vs Bacillota), learn the mapping from the data itself
-    rename = defaultdict(Counter)
-    for s, (parts, _) in profile_lineage.items():
-        if s in lineage:
-            for k, rank in PROFILE_PREFIX.items():
-                if rank in RANKS and parts.get(k) and lineage[s].get(rank) \
-                        and parts[k] != lineage[s][rank]:
-                    rename[(rank, parts[k])][lineage[s][rank]] += 1
-    rename_map = {key: c.most_common(1)[0][0] for key, c in rename.items()}
-
     for s, (parts, url) in profile_lineage.items():
         if s in sgb:
             continue
-        lin = {}
-        for k, rank in PROFILE_PREFIX.items():
-            if rank in RANKS and parts.get(k):
-                lin[rank] = rename_map.get((rank, parts[k]), parts[k])
-        lineage[s] = lin
+        lineage[s] = {rank: parts[k] for k, rank in PROFILE_PREFIX.items()
+                      if rank in RANKS and known(parts.get(k))}
         sgb[s] = {"name": parts.get("s", s), "status": "", "assignedRank": "", "source": url}
 
-    # 6. Taxon hierarchy nodes and links
-    taxa = {}           # taxonId -> (rank, name, source)
-    taxon_parent = set()
-    sgb_in_taxon = []
-    for s, lin in lineage.items():
-        prev = None
-        for rank in RANKS:
-            name = lin.get(rank)
-            if not name:
-                continue
-            tid = taxon_id(rank, name)
-            taxa.setdefault(tid, (rank, name, sgb[s]["source"]))
+    # 5. Reconcile names. cFMD mixes old and new names for the same group
+    #    (Firmicutes/Bacillota, Proteobacteria/Pseudomonadota, ...), even inside
+    #    the MAG list. Where one SGB carries 2 names for the same rank, treat them
+    #    as synonyms; keep the name used most often in the MAG list.
+    parent_of = {}                       # union-find over (rank, name)
+    def find(x):
+        while parent_of.get(x, x) != x:
+            x = parent_of[x]
+        return x
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent_of[ra] = rb
+    for s, (parts, _) in profile_lineage.items():
+        mag_lin = {r: g for r, g in lineage.get(s, {}).items()}
+        for k, rank in PROFILE_PREFIX.items():
+            a, b = parts.get(k), mag_lin.get(rank)
+            if rank in RANKS and known(a) and known(b) and a != b:
+                union((rank, a), (rank, b))
+    usage = Counter((r, g[r]) for g in mags for r in RANKS if known(g[r]))
+    canonical = {}
+
+    def apply_synonyms():
+        groups = defaultdict(list)
+        for key in set(parent_of) | set(parent_of.values()):
+            groups[find(key)].append(key)
+        for members in groups.values():
+            best = max(members, key=lambda m: (usage.get(m, 0), m[1]))
+            for m in members:
+                canonical[m] = best[1]
+        for lin in lineage.values():
+            for rank, name in lin.items():
+                lin[rank] = canonical.get((rank, name), name)
+
+    # 6. Taxon hierarchy. A tree needs exactly 1 parent per taxon.
+    def build_tree():
+        taxa, votes, links = {}, defaultdict(Counter), []
+        for s, lin in lineage.items():
+            prev = None
+            for rank in RANKS:
+                name = lin.get(rank)
+                if not name:
+                    continue
+                tid = taxon_id(rank, name)
+                taxa.setdefault(tid, (rank, name, sgb[s]["source"]))
+                if prev:
+                    votes[tid][prev] += 1
+                prev = tid
             if prev:
-                taxon_parent.add((tid, prev))
-            prev = tid
-        if prev:
-            sgb_in_taxon.append((s, prev, sgb[s]["source"]))
+                links.append((s, prev, sgb[s]["source"]))
+        return taxa, votes, links
+
+    # A class, order or family listed under 2 differently named parents of the
+    # same rank (Bacteroidota/Bacteroidetes) is evidence those parents are
+    # synonyms: merge them, rebuild, repeat. Genus-level conflicts are NOT merged
+    # (2 families can be genuinely different); they go to a majority vote.
+    for _ in range(5):
+        apply_synonyms()
+        taxa, votes, sgb_in_taxon = build_tree()
+        merged = False
+        for child, c in votes.items():
+            if child.split(":")[0] in ("class", "order", "family") and len(c) > 1:
+                ps = [tuple(p.split(":", 1)) for p in c]
+                for other in ps[1:]:
+                    if find(ps[0]) != find(other):
+                        union(ps[0], other)
+                        merged = True
+        if not merged:
+            break
+
+    taxon_parent = set()
+    parent_conflicts = {}
+    for child, c in votes.items():
+        top = c.most_common()
+        taxon_parent.add((child, top[0][0]))
+        if len(top) > 1:
+            parent_conflicts[child] = {p: v for p, v in top}
 
     # 7. Write CSVs
     n = {}
@@ -235,7 +288,7 @@ def main():
          for s, v in sorted(sgb.items())])
     n["taxa.csv"] = write_csv(out / "taxa.csv",
         ["taxonId", "rank", "name", "isPlaceholder", "source"],
-        [(t, r, nm, str(is_placeholder(nm)).lower(), src) for t, (r, nm, src) in sorted(taxa.items())])
+        [(t, r, pretty(nm), str(is_placeholder(nm)).lower(), src) for t, (r, nm, src) in sorted(taxa.items())])
     n["mags.csv"] = write_csv(out / "mags.csv",
         ["magId", "completeness", "contamination", "genomeSize", "nContigs", "n50", "gcContent", "source"],
         [(g["MAG_id"], g["completeness"], g["contamination"], g["genome_size"], g["n_contigs"],
@@ -271,7 +324,8 @@ def main():
     rels = sum(v for k, v in n.items() if k.startswith("rel_"))
     report = {"cfmdVersion": VERSION, "rows_per_file": n, "nodes_total": nodes, "rels_total": rels,
               "missing_profiles": missing_profiles,
-              "renamed_from_profiles": {f"{r}:{a}": b for (r, a), b in rename_map.items()}}
+              "synonyms_merged": {f"{r}:{a}": b for (r, a), b in sorted(canonical.items()) if a != b},
+              "taxa_with_conflicting_parents": parent_conflicts}
     (out / "counts.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(json.dumps(report, indent=2))
 

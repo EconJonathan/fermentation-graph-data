@@ -23,7 +23,7 @@ SGB10459,genus:Psychrobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1
 SGB73277,genus:Brevibacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK10000018,genus:Aspergillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK4959_1,genus:Debaryomyces,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000014,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000014,order:Saccharomycetales,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK2488753,genus:Penicillium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7248,genus:Latilactobacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98796,genus:Brevibacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -83,7 +83,7 @@ SGB81727,genus:Buttiauxella,https://raw.githubusercontent.com/SegataLab/cFMD/v1.
 SGB7144,genus:Lacticaseibacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7217,genus:Lentilactobacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7198,genus:Loigolactobacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000062,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000062,family:Aspergillaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98941,genus:Brachybacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB93100,genus:Brevibacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB96826,genus:Enterobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -107,7 +107,7 @@ SGB98977,genus:GGB71942,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/
 SGB98891,genus:Murinocardiopsis,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99068,genus:GGB72007,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98699,genus:GGB71739,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000045,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000045,family:Mucoraceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7991,genus:Lactococcus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB17228,genus:Bifidobacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB10396,genus:Acinetobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -228,7 +228,7 @@ SGB8224,genus:Streptococcus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.
 SGB178689,genus:Curvibacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB210854,genus:GGB143090,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB48795,genus:GGB38817,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000063,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000063,family:Aspergillaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB12460,genus:Stenotrophomonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB6207,genus:Clostridium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98391,genus:GGB71641,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -269,7 +269,7 @@ SGB99023,genus:GGB71972,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/
 SGB32414,genus:Cobetia,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB11844,genus:Halomonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7141,genus:Loigolactobacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000056,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000056,order:Saccharomycetales,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB12213,genus:Pseudomonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7842,genus:Staphylococcus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB16940,genus:Agrococcus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -374,7 +374,7 @@ SGB140639,genus:Stenotrophomonas,https://raw.githubusercontent.com/SegataLab/cFM
 EUK10000038,genus:Kazachstania,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB1194,genus:Acetobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB34830,genus:Brevibacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000077,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000077,family:Microascaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB93101,genus:Brevibacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB87477,genus:Brachybacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK10000074,genus:Scopulariopsis,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -493,7 +493,7 @@ SGB17119,genus:Corynebacterium,https://raw.githubusercontent.com/SegataLab/cFMD/
 SGB23975,genus:Corynebacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK5480,genus:Candida,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7200,genus:Lactiplantibacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000072,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000072,family:Debaryomycetaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK39397,genus:Teunomyces,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB1192,genus:Acetobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB96932,genus:Atopostipes,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -509,11 +509,11 @@ SGB96968,genus:Limosilactobacillus,https://raw.githubusercontent.com/SegataLab/c
 SGB96955,genus:GGB71216,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK10000054,genus:Wickerhamiella,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB64256,genus:Pediococcus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000039,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000039,family:Saccharomycetaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB96962,genus:Lentilactobacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7081,genus:Ligilactobacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB7082,genus:Ligilactobacillus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000008,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000008,order:Saccharomycetales,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK10000037,genus:Hanseniaspora,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB96820,genus:Mixta,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB12271,genus:Pseudomonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -660,7 +660,7 @@ SGB33716,genus:Corynebacterium,https://raw.githubusercontent.com/SegataLab/cFMD/
 SGB100289,genus:GGB72850,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB100276,genus:GGB72839,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99343,genus:Luteimonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000026,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000026,family:Pichiaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB10380,genus:Acinetobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK10000005,genus:Geotrichum,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK10000071,genus:Kurtzmaniella,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -746,12 +746,12 @@ SGB22915,genus:Advenella,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2
 SGB99072,genus:GGB72011,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB11983,genus:Advenella,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99042,genus:GGB71989,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000051,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000051,family:Arachnomycetaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98930,genus:GGB64727,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB97358,genus:GGB71281,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99727,genus:GGB74042,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98681,genus:GGB71721,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000052,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000052,family:Ajellomycetaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB69246,genus:GGB49345,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB96922,genus:Mammaliicoccus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99201,genus:Vreelandella,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -777,7 +777,7 @@ SGB15824,genus:Rhodococcus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3
 SGB99154,genus:Pseudomonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB87479,genus:Brachybacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98800,genus:Brevibacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000061,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000061,family:Nectriaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB11837,genus:Vreelandella,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB12146,genus:Pseudomonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98808,genus:Brevibacterium,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -793,7 +793,7 @@ SGB99309,genus:Comamonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2
 SGB35079,genus:Arthrobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB34900,genus:Pseudoclavibacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB16672,genus:Kocuria,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000079,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000079,family:Trichosporonaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99045,genus:Pseudoclavibacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB10707,genus:Paracoccus,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK10000042,genus:Torulaspora,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
@@ -850,7 +850,7 @@ SGB11856,genus:Chromohalobacter,https://raw.githubusercontent.com/SegataLab/cFMD
 SGB35039,genus:Arthrobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99699,genus:GGB72487,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB98496,genus:Pseudarthrobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
-EUK10000025,genus:unknown,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
+EUK10000025,family:Pichiaceae,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB99153,genus:Pseudomonas,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 EUK4921,genus:Pichia,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
 SGB1190,genus:Acetobacter,https://raw.githubusercontent.com/SegataLab/cFMD/v1.3.2/cFMD_mags_list.tsv
